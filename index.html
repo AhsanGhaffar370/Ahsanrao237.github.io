@@ -61,10 +61,10 @@
     -->
 
     <section class="bg_img1">
-        <!-- Navbar -->
-        <div class="nav_par pb_0 navbar navbar-expand-lg animated slideInDown">
-            <!-- <img class="nav_logo trans_img2" src="Image/logos-and-favicon/logo5.png" alt="affordable" /> -->
-            <i class="fab fa-asymmetrik fa-5x ml_2 cl_r"></i>
+         <!--Custom Navbar -->
+        <!-- <div class="nav_par">
+            <img class="nav_logo trans_img2" src="Image/logos-and-favicon/logo5.png" alt="affordable" />
+
             <ul class="nav pr_0">
                 <li class="nav_l verCen">
                     <a class="trans_navLink" href="#">Home</a>
@@ -80,13 +80,49 @@
                 <li class="nav_l verCen"><a href="#contact_1">Contact Us</a></li>
                 <li class="nav_l verCen"><a href="#about_1">About Us</a></li>
                 <li class="nav_l verCen">
-                    <!-- Button trigger modal -->
+
                     <button type="button" class="button btn_xxs" data-toggle="modal" data-target="#id32">
-              Login
-            </button>
+                        Login
+                    </button>
                 </li>
             </ul>
-        </div>
+        </div> -->
+
+        <!-- bootstrap navbar -->
+        <nav class="navbar navbar-expand-lg animated slideInDown navbar-dark bg-transparent pl-4 pr-4 pt-2 pb-2">
+        
+            <a class="navbar-brand text-white" href="#"><i class="fab fa-asymmetrik fa-5x ml_2 cl_r"></i></a>
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav ">
+                    <li class="nav-item active nav_l verCen">
+                        <a class="nav-link trans_navLink b7" href="#">Home</a>
+                    </li>
+                    <li class="nav-item dropdown nav_l verCen">
+                        <a href="#" class="nav-link dropdown-toggle dropbtn b7" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Service</a>
+                        <div class="dropdown-menu nav_dropdown" aria-labelledby="navbarDropdown">
+                            <a href="#" class="dropdown-item size15 b7">Service A</a>
+                            <a href="#" class="dropdown-item size15 b7">Service B</a>
+                            <a href="#" class="dropdown-item size15 b7">Service C</a>
+                        </div>
+                    </li>
+                    <li class="nav-item nav_l verCen"><a href="#contact_1" class="nav-link b7">Contact Us</a></li>
+                    <li class="nav-item nav_l verCen"><a href="#about_1" class="nav-link b7">About Us</a></li>
+                    <li class="nav-item nav_l verCen">
+                        <!-- Button trigger modal -->
+                        <button type="button" class="button btn_xxs" data-toggle="modal" data-target="#id32">
+                            Login
+                        </button>
+                    </li>
+
+                </ul>
+
+            </div>
+        </nav>
 
         <section>
             <!-- Modal -->
